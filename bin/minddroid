@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+#! /home/songrit/.rbenv/shims/ruby
+LIB_PATH = File.expand_path('../../lib/minddroid', __FILE__)
+$:.unshift(LIB_PATH)
+require 'version'
+require 'runner'
+require 'options'
+
+runner = MindDroid::Runner.new(ARGV)
+runner.run
+
+# LIB_PATH = '../lib/anagram/'
+# require_relative LIB_PATH+'finder'
+# require_relative LIB_PATH+'options'
+# require_relative LIB_PATH+'runner'
+
+# runner = MindDroid::Runner.new(ARGV)
+# runner.run
