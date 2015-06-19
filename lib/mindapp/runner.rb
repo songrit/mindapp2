@@ -1,4 +1,4 @@
-module MindDroid
+module MindApp
   class Runner
 
     def initialize(argv)
@@ -35,7 +35,7 @@ module MindDroid
       # # options = Parser.parse %w[--help]
       # options = Parser.parse ARGV
       command = ARGV[0]
-      p MindDroid::VERSION
+      p command
       # p lib_path
     end
 
