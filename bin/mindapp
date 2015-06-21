@@ -8,11 +8,3 @@ require 'options'
 
 runner = MindApp::Runner.new(ARGV)
 runner.run
-
-# LIB_PATH = '../lib/anagram/'
-# require_relative LIB_PATH+'finder'
-# require_relative LIB_PATH+'options'
-# require_relative LIB_PATH+'runner'
-
-# runner = MindDroid::Runner.new(ARGV)
-# runner.run
